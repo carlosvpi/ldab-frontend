@@ -2,10 +2,10 @@ var path = require('path');
 
 module.exports = {
 	context: path.resolve('src'),
-	entry: './app.jsx',
+	entry: './entry.jsx',
 	output: {
 		path: path.resolve('dist'),
-		filename: 'app.js'
+		filename: 'index.js'
 	},
 	module: {
 		loaders: [
